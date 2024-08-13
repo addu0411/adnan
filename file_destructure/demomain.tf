@@ -19,6 +19,10 @@ region = var.region
 
 }
 
-resource "aws_in" "name" {
+resource "aws_instance" "ak" {
+
+     ami                 = var.ami
+    
+    key_name            = var.key_name
   
 }
