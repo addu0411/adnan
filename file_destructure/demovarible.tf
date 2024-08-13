@@ -1,3 +1,3 @@
-variable "" {
+variable "aws_instance" {
   
 }
