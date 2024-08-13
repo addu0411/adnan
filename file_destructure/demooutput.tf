@@ -1,5 +1,5 @@
 resource "aws" "name" {
 
-    res
+
   
 }
