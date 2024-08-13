@@ -1,4 +1,5 @@
 required_providers {
 
-    pr
+    provider "aws"
+    
 }
