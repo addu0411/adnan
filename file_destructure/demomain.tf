@@ -15,6 +15,6 @@ terraform {
 
 provider "aws" {
 
-    ami
+    ami = v
   
 }
