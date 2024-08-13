@@ -28,6 +28,9 @@ variable "tags" {
   
 }
 
-variable "" {
+variable "value" {
+
+    type = string
+    description = "value"
   
 }
