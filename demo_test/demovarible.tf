@@ -10,7 +10,10 @@ variable "ami" {
   
 }
 
-
+variable "name" {
+    type = 
+  
+}
 variable "instance_type" {
 
     type = string
