@@ -13,6 +13,6 @@ variable "ami" {
 variable "instance_type" {
 
     type = string
-    description = "value"
+    description = "calling instance"
   
 }
