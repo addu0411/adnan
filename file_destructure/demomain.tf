@@ -1,6 +1,6 @@
 terraform {
 
-    equired_providers {
+    required_providers {
 
     aws = {
 
