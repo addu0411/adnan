@@ -9,3 +9,7 @@ variable "ami" {
     description = "calling ami"
   
 }
+
+variable "" {
+  
+}
