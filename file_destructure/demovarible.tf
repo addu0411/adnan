@@ -28,4 +28,6 @@ variable "tags" {
   
 }
 
-va
+variable "" {
+  
+}
