@@ -11,6 +11,4 @@ terraform {
   
   }
 
-
-       provider ""
 }
