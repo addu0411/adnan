@@ -2,6 +2,6 @@ required_providers {
 
     provider "aws" {
 
-        source ="harsh"
+        source ="harshicop.io/aws"
     }
 }
