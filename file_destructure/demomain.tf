@@ -15,8 +15,5 @@ terraform {
 
 provider "aws" {
 
-    ami                 = var.ami
-    
-    key_name            = var.key_name
-
+region = 
 }
