@@ -16,5 +16,6 @@ terraform {
 provider "aws" {
 
     ami                 = var.ami
-    key_name            = va
+    key_name            = var.key_name
+    
 }
