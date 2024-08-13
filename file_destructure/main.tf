@@ -14,7 +14,6 @@ provider "aws" {
 
 ##### Try to create one ubuntu server
 resource "aws_instance" "this" {
-  nam
   ami                     = var.ami
   instance_type           = var.instance_type
   key_name                = var.key_name
