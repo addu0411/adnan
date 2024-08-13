@@ -4,6 +4,8 @@ variable "region" {
 
 }
 
-variable "" {
+variable "ami" {
+    type = string
+    description = "calling ami"
   
 }
