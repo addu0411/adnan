@@ -19,5 +19,6 @@ variable "instance_type" {
 
 variable "key_name" {
     type = string
-    description = "value"
+    description = "calling key"
 }
+
