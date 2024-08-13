@@ -1,4 +1,6 @@
-t
+terraform {
+  
+}
 required_providers {
 
     aws = {
