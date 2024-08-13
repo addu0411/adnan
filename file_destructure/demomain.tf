@@ -19,3 +19,6 @@ region = var.region
 
 }
 
+resource "aws" "name" {
+  
+}
