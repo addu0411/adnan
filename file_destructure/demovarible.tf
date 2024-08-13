@@ -13,6 +13,10 @@ variable "ami" {
 variable "instance_type" {
 
     type = string
-    description = "calling instance"
+    description = "calling instance_type"
+  
+}
+
+variable "" {
   
 }
