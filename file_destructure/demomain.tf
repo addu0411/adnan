@@ -13,6 +13,8 @@ terraform {
 
 }
 
-provider "" {
+provider "aws" {
+
+    ami
   
 }
