@@ -1,4 +1,7 @@
 required_providers {
 
-    provider "aws" 
+    provider "aws" {
+
+        source
+    }
 }
