@@ -31,6 +31,6 @@ variable "tags" {
 variable "value" {
 
     type = string
-    description = "calling "
+    description = "calling value"
   
 }
