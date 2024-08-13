@@ -24,6 +24,8 @@ variable "key_name" {
 
 variable "tags" {
     type = string
-    description = "c"
+    description = "calling tags"
   
 }
+
+va
