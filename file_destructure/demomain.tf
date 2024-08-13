@@ -4,6 +4,7 @@ required_providers {
 
         source ="harshicop.io/aws"
         version ="5.6.1"
-        
+
     }
+    
 }
