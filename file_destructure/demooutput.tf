@@ -1,5 +1,3 @@
-resource "aws" "name" {
-
-
+output "EC2" {
   
 }
