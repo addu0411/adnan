@@ -22,7 +22,7 @@ region = var.region
 resource "aws_instance" "ak" {
 
      ami                 = var.ami
-     instance_type = 
+     instance_type = var.instance_type
     key_name            = var.key_name
   
 }
