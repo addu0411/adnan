@@ -17,6 +17,6 @@ variable "instance_type" {
   
 }
 
-variable "" {
+variable "key_name" {
   
 }
