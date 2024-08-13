@@ -1,6 +1,7 @@
+t
 required_providers {
 
-    aws= {
+    aws = {
 
         source ="harshicop.io/aws"
         version ="5.61.0"
