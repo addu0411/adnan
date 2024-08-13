@@ -22,6 +22,7 @@ variable "key_name" {
     description = "calling key"
 }
 
-variable "" {
+variable "tags" {
+    
   
 }
