@@ -15,8 +15,7 @@ terraform {
 
 provider "aws" {
 
-    ami = var.ami
+    ami                 = var.ami
 
-    
   
 }
