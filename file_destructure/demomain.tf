@@ -19,6 +19,6 @@ region = var.region
 
 }
 
-resource "aws" "name" {
+resource "aws_in" "name" {
   
 }
