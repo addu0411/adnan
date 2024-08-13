@@ -1,1 +1,4 @@
-region = "ap-south"
+region = "ap-south-1"
+
+ami = "value"
+
