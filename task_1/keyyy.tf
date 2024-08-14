@@ -31,5 +31,5 @@ depends_on = [
 }
 resource "aws_key_pair" "devkey" {
   key_name   = "aws_key"
-  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIwd/NhSh+V5MZ5jLS7O1nNT8H7xqvcslLTUbY89DtAB"
+  public_key = ""
 }
