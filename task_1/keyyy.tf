@@ -14,5 +14,6 @@ provider "aws_instance" {
 
     ami = ""
     instance_type=""
+    key_name=""
   
 }
