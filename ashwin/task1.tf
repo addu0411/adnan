@@ -19,6 +19,6 @@ provider "aws_instance" {
 
 }
 
-depends_on ={
+depends_on = [
     
-}
+]
