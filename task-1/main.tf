@@ -1,7 +1,8 @@
 terraform {
   
   required_providers "aws" {
-        resource = 
+        resource = "hashicorp/aws"
+        
     
   }
 }
