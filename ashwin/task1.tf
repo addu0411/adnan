@@ -14,6 +14,7 @@ provider "aws" {
 
 provider "aws_instance" {
     ami = ""
-    instance_type = "t2"
+    instance_type = "t2.micro"
+    
   
 }
