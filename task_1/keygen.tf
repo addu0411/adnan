@@ -1,4 +1,4 @@
-file_destructure/main.tf
+
 
 #EC2 instance details
 
