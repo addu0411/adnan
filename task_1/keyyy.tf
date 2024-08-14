@@ -14,7 +14,7 @@ provider "aws" {
 
 #EC2 instance details
 
-resource "aws_instance" "instance2" {
+resource "aws_instance" "this" {
 
 ami = "ami-0ad21ae1d0696ad58"
 
