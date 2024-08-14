@@ -1,9 +1,4 @@
 terraform {
-  cloud {
-    organization = "<YOUR TERRAFORM CLOUD ORGANIZATION NAME>"
-    workspaces {
-        name = "<YOUR WORKSPACE NAME>"
-    }
   }
   required_providers {
     aws = {
