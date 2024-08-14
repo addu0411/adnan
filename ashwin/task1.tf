@@ -24,6 +24,6 @@ depends_on = [
     aws_key_pair.adnan
 ]
 
-provider "aws_key_pair" "" {
+provider "aws_key_pair" "adnan" {
   
 }
