@@ -14,6 +14,6 @@ provider "aws" {
 
 provider "aws_instance" {
     ami = ""
-    
+    instance_type
   
 }
