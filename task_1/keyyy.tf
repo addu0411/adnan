@@ -20,5 +20,7 @@ provider "aws_instance" {
 }
 
 depends_on = [
+    
     aws_key_pair.roy
 ]
+
