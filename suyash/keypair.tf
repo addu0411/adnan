@@ -23,5 +23,5 @@ resource "aws_instance" "this" {
 }
 resource "aws_key_pair" "opskey" {
   key_name = "suyash"
-  public_key = ""
+  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJRsU8Us0JQXcHyNgv7rvt7Un9h/viGmV4/cfWTrKXvU"
 }
