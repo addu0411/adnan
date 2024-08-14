@@ -24,6 +24,6 @@ depends_on = [
     aws_key_pair.roy
 ]
 
-provider "" {
+provider "aws_key_pair"  {
   
 }
