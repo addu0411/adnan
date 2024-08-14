@@ -19,4 +19,4 @@ provider "aws_instance" {
 
 }
 
-pro
+depends_on =
