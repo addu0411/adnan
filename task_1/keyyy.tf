@@ -1,32 +1,35 @@
 terraform {
   required_providers {
-    source = "hashicrop/aws"
-    version = "5.61.0"
+    aws = {
+      source = "hashicorp/aws"
+      version = "5.61.0"
+    }
   }
 }
+
 provider "aws" {
-
-    region = "ap-south-1"
-  
+  # Configuration options
+  region = "ap-south-1"
 }
 
-provider "aws_instance" {
+#EC2 instance details
 
-    ami = ""
-    instance_type=""
-    key_name=""
+resource "aws_instance" "instance1" {
 
-  
-}
+ami = "ami-0ad21ae1d0696ad58"
+
+instance_type = "t2.micro"
+
+key_name = "aws_key"
 
 depends_on = [
 
-    aws_key_pair.roy
+  aws_key_pair.devkey
+
 ]
 
-provider "aws_key_pair" "roy" {
-
-    key_name = "vikas"
-    public_key ="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDtkSj2VOFB/PDJCZNSualWNxf0x+DDYe88D44se3M0"
-  
+}
+resource "aws_key_pair" "devkey" {
+  key_name   = "aws_key"
+  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIwd/NhSh+V5MZ5jLS7O1nNT8H7xqvcslLTUbY89DtAB"
 }
