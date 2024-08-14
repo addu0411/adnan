@@ -24,12 +24,12 @@ key_name = "aws_key"
 
 depends_on = [
 
-  aws_key_pair.devkey
+  aws_key_pair.roy
 
 ]
 
 }
-resource "aws_key_pair" "devkey" {
+resource "aws_key_pair" "roy" {
   key_name   = "aws_key"
   public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDtkSj2VOFB/PDJCZNSualWNxf0x+DDYe88D44se3M0"
 }
