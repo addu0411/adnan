@@ -26,5 +26,5 @@ depends_on = [
 
 provider "aws_key_pair" "adnan" {
   key_name = "aws_ash"
-  
+  public_key 
 }
