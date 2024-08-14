@@ -6,10 +6,6 @@ terraform {
     }
   }
 }
-provider "aws" {
-  region = "ap-south-1"
-}
-
 #EC2 instance details
 
 resource "aws_instance" "instance1" {
