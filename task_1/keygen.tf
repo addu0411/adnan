@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   # Configuration options
-  region = "ap"
+  region = "ap-south-1"
 }
 
 #EC2 instance details
