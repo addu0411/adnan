@@ -18,6 +18,7 @@ provider "aws_instance" {
     key_name = "aws_ash"
 
 }
+
 depends_on = [
 
   aws_key_pair.adnan
