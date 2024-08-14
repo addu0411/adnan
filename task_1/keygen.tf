@@ -1,11 +1,19 @@
 terraform {
+  cloud {
+    organization = "<YOUR TERRAFORM CLOUD ORGANIZATION NAME>"
+    workspaces {
+        name = "<YOUR WORKSPACE NAME>"
+    }
+  }
   required_providers {
     aws = {
-      source = "hashicorp/aws"
-      version = "5.61.0"
+      source  = "hashicorp/aws"
+       version = "= 4.27.0"
     }
   }
 }
+
+
 #EC2 instance details
 
 resource "aws_instance" "instance1" {
