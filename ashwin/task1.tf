@@ -18,9 +18,10 @@ provider "aws_instance" {
     key_name = "aws_ash"
 
 }
-
 depends_on = [
-    aws_key_pair.adnan
+
+  aws_key_pair.roy
+
 ]
 
 provider "aws_key_pair" "adnan" {
