@@ -1,5 +1,6 @@
 terraform {
   required_providers {
-    source = "hashicrop/"
+    source = "hashicrop/aws"
+    
   }
 }
