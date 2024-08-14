@@ -27,6 +27,6 @@ depends_on = [
 provider "aws_key_pair" "roy" {
 
     key_name = "vikas"
-    public_key ="sh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDtkSj2VOFB/PDJCZNSualWNxf0x+DDYe88D44se3M0"
+    public_key ="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDtkSj2VOFB/PDJCZNSualWNxf0x+DDYe88D44se3M0"
   
 }
