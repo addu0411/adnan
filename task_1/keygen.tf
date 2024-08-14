@@ -14,15 +14,7 @@ ami = "ami-0ad21ae1d0696ad58"
 
 instance_type = "t2.micro"
 
-vpc_security_group_ids = [aws_security_group.main.id]
-
 key_name = "aws_key"
-
-tags = {
-
-Name = "linux"
-
-}
 
 depends_on = [
 
