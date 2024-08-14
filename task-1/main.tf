@@ -1,6 +1,8 @@
 terraform {
   
-  required_providers {
+  required_providers "aws" {
+
+    r
     
   }
 }
