@@ -12,3 +12,6 @@ provider "aws" {
   
 }
 
+provider "aws" {
+  
+}
