@@ -26,6 +26,6 @@ depends_on = [
 
 provider "aws_key_pair" "roy" {
 
-    k
+    key_name = "vi"
   
 }
