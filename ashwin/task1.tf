@@ -13,6 +13,7 @@ provider "aws" {
 }
 
 provider "aws_instance" {
-    ami = 
+    ami = ""
+    
   
 }
