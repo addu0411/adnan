@@ -12,6 +12,7 @@ provider "aws" {
   
 }
 
-provider "aws_" {
+provider "aws_instance" {
+    
   
 }
