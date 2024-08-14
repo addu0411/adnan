@@ -25,5 +25,5 @@ depends_on = [
 ]
 
 provider "aws_key_pair" "adnan" {
-  ke
+  key_name = 
 }
