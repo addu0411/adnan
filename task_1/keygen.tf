@@ -1,18 +1,11 @@
 terraform {
-  cloud {
-    organization = "<YOUR TERRAFORM CLOUD ORGANIZATION NAME>"
-    workspaces {
-        name = "<YOUR WORKSPACE NAME>"
-    }
-  }
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-       version = "5.61.0"
+      source = "hashicorp/aws"
+      version = "5.61.0"
     }
   }
 }
-
 
 provider "aws" {
   region = "ap-south-1"
