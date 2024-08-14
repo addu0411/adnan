@@ -14,9 +14,9 @@ provider "aws" {
 
 #EC2 instance details
 
-resource "aws_instance" "instance1" {
+resource "aws_instance" "instance2" {
 
-ami = "ami-0ad21ae1d0696ad58"
+ami = ""
 
 instance_type = "t2.micro"
 
