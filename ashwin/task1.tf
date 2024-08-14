@@ -17,7 +17,6 @@ provider "aws_instance" {
     instance_type = "t2.micro"
     key_name = "aws_ash"
 
-}
 
 depends_on = [
 
