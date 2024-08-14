@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+Wed Aug 14 2024 03:49:04 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+
+
+Deleted files:
+* file_destructure/demo_test/demomain.tf
+* file_destructure/demo_test/demooutput.tf
+* file_destructure/demo_test/demovar_data.auto.tfvars
+* file_destructure/demo_test/demovarible.tf
+
+
+Renamed files:
