@@ -31,7 +31,7 @@ depends_on = [
 }
 resource "aws_security_group" "this" {
 
-  depends_on = [  ]
+  depends_on = [ aws ]
   
 }
 resource "aws_key_pair" "roy" {
