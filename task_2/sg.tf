@@ -28,6 +28,7 @@ depends_on = [
 
 ]
 
+se
 
 }
 resource "aws_key_pair" "roy" {
