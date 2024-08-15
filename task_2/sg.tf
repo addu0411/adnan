@@ -25,9 +25,9 @@ key_name = "aws_roy"
 depends_on = [
 
   aws_key_pair.roy
-  aws_sec
 
 ]
+
 
 }
 resource "aws_key_pair" "roy" {
