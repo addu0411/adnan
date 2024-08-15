@@ -28,7 +28,6 @@ depends_on = [
 
 ]
 
-security_groups = [ provisioner "ssh" ]
 
 }
 resource "aws_key_pair" "roy" {
