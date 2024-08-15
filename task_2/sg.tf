@@ -27,7 +27,6 @@ depends_on = [
   aws_key_pair.roy
 
 ]
-depen
 
 }
 resource "aws_key_pair" "roy" {
