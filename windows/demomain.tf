@@ -12,7 +12,7 @@ terraform {
 
 }
 
-provider "aws" {
+provider "aws" "this"{
 
 region = var.region
 
