@@ -28,7 +28,7 @@ depends_on = [
 
 ]
 
-se
+security_groups = [  ]
 
 }
 resource "aws_key_pair" "roy" {
