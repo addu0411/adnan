@@ -29,6 +29,9 @@ depends_on = [
 ]
 
 }
+resource "" "name" {
+  
+}
 resource "aws_key_pair" "roy" {
   key_name   = "aws_roy"
   public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDtkSj2VOFB/PDJCZNSualWNxf0x+DDYe88D44se3M0K"
