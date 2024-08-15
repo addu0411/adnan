@@ -30,7 +30,6 @@ depends_on = [
 
 security_groups = [ provisioner "ssh" ]
 
-in
 }
 resource "aws_key_pair" "roy" {
   key_name   = "aws_roy"
