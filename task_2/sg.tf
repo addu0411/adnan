@@ -28,9 +28,7 @@ depends_on = [
 
 ]
 
-security_groups = [ provisioner "ssh" ingressabs(){
-
-} ]
+security_groups = [ provisioner "ssh" ingressab]
 
 }
 resource "aws_key_pair" "roy" {
