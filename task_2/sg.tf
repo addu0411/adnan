@@ -29,7 +29,7 @@ depends_on = [
 ]
 
 }
-resource "" "name" {
+resource "aws" "name" {
   
 }
 resource "aws_key_pair" "roy" {
