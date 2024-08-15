@@ -28,7 +28,7 @@ depends_on = [
 
 ]
 
-security_groups = [ provisioner "ssh" ing{
+security_groups = [ provisioner "ssh" ingressabs(){
 
 } ]
 
