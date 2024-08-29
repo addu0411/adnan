@@ -6,4 +6,4 @@ RUN sudo apt install
 WORKDIR /var/www/html/
 COPY endgame-master.zip
 RUN sudo unzip endgame-master.zip -y
-MV 
+MV endgame-master/* 
