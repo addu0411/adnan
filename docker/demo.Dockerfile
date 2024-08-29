@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 LABEL key="adnan"
-r
+RUN apt update
+
 
 RUN sudo apt install nginx unzip -y
 
