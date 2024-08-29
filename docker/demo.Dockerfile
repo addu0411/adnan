@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 LABEL key="adnan"
-RUN command
+RUN sudo apt install nginx
