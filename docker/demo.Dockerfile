@@ -1,2 +1,3 @@
 FROM ubuntu:latest
-LABEL key="value"
+LABEL key="adnan"
+RUN command
