@@ -8,4 +8,4 @@ COPY endgame-master.zip
 RUN sudo unzip endgame-master.zip -y
 MV endgame-master/* .
 EXPOSE 80
-CMD [ "nginx " "-g" ]
+CMD [ "nginx " "-g" "" ]
