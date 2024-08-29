@@ -4,4 +4,4 @@ RUN apt update
 RUN sudo apt install nginx unzip -y
 RUN sudo apt install 
 WORKDIR /var/www/html/
-COPY source dest
+COPY 
