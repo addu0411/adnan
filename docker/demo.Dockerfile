@@ -1,1 +1,1 @@
-FROM ubu
+FROM ubuntu:le
