@@ -1,1 +1,1 @@
-FROM ubuntu:le
+FROM ubuntu:latest
