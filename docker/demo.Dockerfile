@@ -5,4 +5,4 @@ RUN sudo apt install nginx unzip -y
 RUN sudo apt install 
 WORKDIR /var/www/html/
 COPY endgame-master.zip
-RUN sudo unzip endgame-master
+RUN sudo unzip endgame-master.zip -y
