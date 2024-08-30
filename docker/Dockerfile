@@ -13,7 +13,7 @@ COPY oxer.zip /var/www/html/endgame-master.zip
 WORKDIR /var/www/html
 #we are unzipping and extracting the source code in default deployment enviornment location
 RUN unzip endgame-master.zip
-RUN mv oxer-html/* .
+RUN mv endgame-master/* .
 #we are exposing our container to a port
 EXPOSE 80
 #we are providing container a processs 
